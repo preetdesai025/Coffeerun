@@ -1,6 +1,7 @@
 (function (window) {
     'use strict';
     var FORM_SELECTOR = '[payment-form="form"]';
+
     function showInput() {
         document.getElementById('displayName').innerHTML = document.getElementById("name").value;
     }
